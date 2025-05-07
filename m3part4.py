@@ -31,9 +31,9 @@ def show_menu():
         generate_number()
         guess_number()
     elif choice == "2":
-        print("Goodbye!")
+        print("Thank you for using Number Guessing Game!")
     else:
-        print("Invalid choice. Try again.")
+        print("Invalid input. Please try again.")
         show_menu()  
 
 show_menu()
